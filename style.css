@@ -1,0 +1,19 @@
+.row {
+    height: 100px;
+    background-color: #483D8B;
+}
+
+[class*="col-xs-"] {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.col-xs-4 {
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    font-size: 14px;
+}
