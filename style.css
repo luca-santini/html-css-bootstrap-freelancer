@@ -3,17 +3,35 @@
     background-color: #483D8B;
 }
 
-[class*="col-xs-"] {
+.col-xs-6 {
     color: white;
     text-transform: uppercase;
+    font-size: 20px;
     padding-top: 40px;
 }
 
-.col-xs-4 {
-    font-size: 20px;
+.col-xs-3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 40px;
 }
 
 li {
     display: inline-block;
     font-size: 14px;
+}
+
+.container-fluid {
+    background-color: teal;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+h4 {
+    text-align: center;
+    color: white;
 }
