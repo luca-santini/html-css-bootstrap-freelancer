@@ -72,3 +72,38 @@ main {
 .separatore::after {
     right: 0;
 }
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio .separatore::before,
+.portfolio .separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+    background-color: black;
+}
+.col-md-6 {
+    padding-top: 20px;
+}
+.img-fluid {
+    height: 250px;
+}
+
+/* .overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+ background-color: #2D3E50;
+} */
