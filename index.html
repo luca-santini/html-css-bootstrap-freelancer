@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html lang="it" dir="ltr">
+<html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bootstrap Freelancer</title>
+        <script src="https://kit.fontawesome.com/1e3e5f2200.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <div class="row">
-                <div class="col-xs-2"></div>
-                    <div class="col-xs-6"><strong>start bootstrap</strong></div>
-                        <div class="col-xs-3">
-                            <ul class="list-inline">
-                                <li>portfolio</li>
-                                <li>about</li>
-                                <li>contact</li>
-                            </ul></div>
-                </div>
-            </div>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Start Bootstrap</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
         </header>
-            <section class="container-fluid">
-                <div class="text-center">
-                    <img src="img/avatar.svg" alt="">
+        <main>
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <img class="img-responsive center-block" src="img/avatar.svg" alt="Avatar">
+                    <h1 class="text-uppercase">Start Bootstrap</h1>
+                    <div class="separatore center-block">
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
+                    <p>Graphic Artist - Web Designer - Illustrator</p>
                 </div>
-                <h1><strong>start bootstrap</strong></h1>
-                <h4>Graphic Artist - Web Designer - Illustrator</h4>
             </section>
+        </main>
     </body>
 </html>
